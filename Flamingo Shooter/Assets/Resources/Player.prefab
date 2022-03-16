@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   applySpeed: 0
-  walkSpeed: 10
+  walkSpeed: 2
   isWalk: 0
   sprintSpeed: 20
   isSprint: 0
