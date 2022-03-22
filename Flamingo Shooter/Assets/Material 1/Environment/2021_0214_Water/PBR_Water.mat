@@ -46,9 +46,9 @@ Material:
     m_Floats:
     - Vector1_120D3B39: 0
     - Vector1_20EE3C02: -0.83
-    - Vector1_2492BCF3: 3.57
+    - Vector1_2492BCF3: 2.45
     - Vector1_453B343D: 0.68
-    - Vector1_53A7F586: 4
+    - Vector1_53A7F586: 14.2
     - Vector1_55DFD0FA: 0.72
     - Vector1_5FBCDB67: 1.06
     - Vector1_610AA743: 0
@@ -56,7 +56,7 @@ Material:
     - Vector1_6A98F298: -0.4
     - Vector1_7611F6F1: 0
     - Vector1_7963648C: 0
-    - Vector1_858226D0: 5.1
+    - Vector1_858226D0: 14.7
     - Vector1_8696A48C: 224
     - Vector1_872CCD1E: 0.483
     - Vector1_87A1E664: 1
