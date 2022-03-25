@@ -16,7 +16,7 @@ MonoBehaviour:
     AppIdRealtime: a80ff794-8521-4996-9b93-d1667f5b3537
     AppIdFusion: 
     AppIdChat: 
-    AppIdVoice: 
+    AppIdVoice: 3ac60be6-3742-424d-af4a-aeab1e23db19
     AppVersion: 
     UseNameServer: 1
     FixedRegion: 
@@ -57,6 +57,9 @@ MonoBehaviour:
   - KeyEquip
   - PlayerDead
   - ReSpawn
+  - CantHearYou
+  - ChangeColour
+  - HeresWhy
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
+  ShowSettings: 1
   DevRegionSetOnce: 1
