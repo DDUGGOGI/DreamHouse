@@ -8,6 +8,7 @@ TagManager:
   - Weapon
   - Cartrige
   - Ground
+  - Light
   layers:
   - Default
   - TransparentFX
