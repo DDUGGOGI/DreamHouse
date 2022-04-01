@@ -24,6 +24,8 @@ public class InteractAction : MonoBehaviour
     public GameObject fireSmoke;
 
     public List<Light> floor1Light;
+
+    public GameObject interactGoj;
     void Start()
     {
         rain.SetActive(false);
@@ -53,15 +55,16 @@ public class InteractAction : MonoBehaviour
 
     void CameraCenterRay()
     {
-        var ray = myCam.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        Physics.Raycast(ray, out hit);
-
-        if (Input.GetMouseButtonDown(0))        // 마우스 클릭시
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.E))        // 마우스 클릭시
         {
+            var ray = myCam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            Physics.Raycast(ray, out hit);
+
             print(hit.transform.gameObject.name);       // 이름을 호출
 
-            if(hit.transform.gameObject.name == "Piano_low" )       // 피아노 클릭시
+            // 피아노 클릭시
+            if (hit.transform.gameObject.name == "Piano_low" )       
             {
                 wheatherTime++;
                 print(wheatherTime % 4);
@@ -143,7 +146,21 @@ public class InteractAction : MonoBehaviour
                     }
                 }
             }
-            
+
+            //뒷쪽 창문 클릭시
+            else if(hit.transform.gameObject.name == "BackFLeft" || hit.transform.gameObject.name == "BackFLeftHandle")
+            {
+                hit.transform.gameObject.name = "BackFLeft";
+                //Transform door = hit.transform;
+                hit.transform.gameObject.GetComponent<InteractObJ>().OnConnect();
+                print("함수작동");
+            }
+
+            else if (hit.transform.gameObject.name == "TestCube" || hit.transform.gameObject.name == "GameObject123")
+            {
+                hit.transform.gameObject.GetComponent<InteractObJ>().ChangePosition();
+                print("테스트함수작동");
+            }
         }
         
     }
