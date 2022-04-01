@@ -160,6 +160,14 @@ public class InteractAction : MonoBehaviour
             {
                 hit.transform.gameObject.GetComponent<InteractObJ>().ChangePosition();
                 print("테스트함수작동");
+
+                
+            }
+
+            else if (hit.transform.gameObject.name == "Front1L" || hit.transform.gameObject.name == "Front1R")
+            {
+                hit.transform.gameObject.GetComponent<InteractObJ>().OnConnect();
+                print("연결함수 작동");
             }
         }
         
