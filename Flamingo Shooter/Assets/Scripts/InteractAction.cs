@@ -164,7 +164,7 @@ public class InteractAction : MonoBehaviour
                 
             }
 
-            else if (hit.transform.gameObject.name == "Front1L" || hit.transform.gameObject.name == "Front1R")
+            else if (hit.transform.gameObject.name == "Front1L" || hit.transform.gameObject.name == "Front1R" || hit.transform.gameObject.name == "Laptoptest_low")
             {
                 hit.transform.gameObject.GetComponent<InteractObJ>().OnConnect();
                 print("연결함수 작동");
