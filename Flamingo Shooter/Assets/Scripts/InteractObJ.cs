@@ -5,27 +5,25 @@ using DG.Tweening;
 
 public class InteractObJ : MonoBehaviour
 {
-    [Header("Control")]
+
     public bool isOpen = false;
     public bool isConnect = false;
-    public bool isDisplay = true;
 
-    [Header("Smooth Time")]
-    public float smoothTime;
+    
 
-    [Header("Position")]
+
+
     public bool PositionMechine;
     public Vector3 defaultPosition;
     public Vector3 targetPosition;
 
-    [Header("Rotation")]
     public bool RotationMechine;
     public Vector3 defaultRotation;
     public Vector3 targetRotation;
     public Ease ease;
 
 
-    
+    public float smoothTime;
 
 
     //public Animation ani;

@@ -39,10 +39,14 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.72197175, g: 0.73252225, b: 0.6665002, a: 1}
 =======
   m_IndirectSpecularColor: {r: 0.41656825, g: 0.20588803, b: 0.19924068, a: 1}
 >>>>>>> parent of 91f8ae9 (0330edit)
+=======
+  m_IndirectSpecularColor: {r: 0.7219747, g: 0.73252517, b: 0.66650105, a: 1}
+>>>>>>> parent of 9cc0ee7 (LaptopFuc)
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3514,7 +3518,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 1.007999, y: 3.77, z: 3.061}
   targetPosition: {x: 1.007999, y: 3.77, z: 1.58}
@@ -3631,11 +3634,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110085880}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &110144545 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1574458961557029603, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
-  m_PrefabInstance: {fileID: 1647018531}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &115194719
 GameObject:
   m_ObjectHideFlags: 0
@@ -4285,7 +4283,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 0
   defaultPosition: {x: 0, y: 0, z: 0}
   targetPosition: {x: 0, y: 0, z: 0}
@@ -6407,7 +6404,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 2.95, y: 0, z: -0.2}
   targetPosition: {x: 2.95, y: 0, z: 0.82}
@@ -14758,7 +14754,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 3.82, y: 0.02830553, z: 3.284}
   targetPosition: {x: 3.82, y: 0.02830553, z: 1.839}
@@ -19596,7 +19591,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 2.95, y: 0, z: -1.59}
   targetPosition: {x: 2.95, y: 0, z: -2.81}
@@ -21734,7 +21728,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 0
   defaultPosition: {x: 0, y: 0, z: 0}
   targetPosition: {x: -1, y: 0, z: 1.1}
@@ -27945,7 +27938,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 0
   defaultPosition: {x: 0, y: 0, z: 0}
   targetPosition: {x: 0, y: 0, z: 0}
@@ -27967,28 +27959,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2790168, y: 0.19411778, z: 0.022018667}
   m_Center: {x: 0.000000049910255, y: -0.09697169, z: -0.006055317}
---- !u!114 &640039345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640039339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab0ab38c759840148830e43f749560c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interacobj: {fileID: 0}
-  laptopBody: {fileID: 110144545}
-  lapMat:
-  - {fileID: 2100000, guid: b134cb1319bb9fb42907ba0bc6cbbedb, type: 2}
-  - {fileID: 2100000, guid: 3ceb88fa2527d1149bbd8b147cb4579e, type: 2}
-  - {fileID: 2100000, guid: 576c9dd6fab94554b9641ddb0b1895c7, type: 2}
-  - {fileID: 2100000, guid: e929b81b0e9c6db459f7e7c1a69d0f3d, type: 2}
-  white:
-    serializedVersion: 2
-    rgba: 4290756543
 --- !u!1 &645746752
 GameObject:
   m_ObjectHideFlags: 0
@@ -30729,7 +30699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 3.885, y: 0.02830553, z: 1.674}
   targetPosition: {x: 3.885, y: 0.02830553, z: 3.181}
@@ -33184,7 +33153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: -2.354, y: 7.454, z: 3.061}
   targetPosition: {x: -2.354, y: 7.454, z: 1.58}
@@ -34935,7 +34903,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 3.885, y: 0.02830553, z: -2.044058}
   targetPosition: {x: 3.885, y: 0.02830553, z: -0.527}
@@ -50593,7 +50560,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: -2.289, y: 7.454, z: 1.307}
   targetPosition: {x: -2.289, y: 7.454, z: 2.837}
@@ -64272,7 +64238,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 1.073, y: 3.77, z: 1.307}
   targetPosition: {x: 1.073, y: 3.77, z: 2.837}
@@ -65176,7 +65141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 0
   defaultPosition: {x: 0, y: 0, z: 0}
   targetPosition: {x: 0, y: 0, z: 0}
@@ -74960,17 +74924,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5257586161679491192, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -5257586161679491192, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3ceb88fa2527d1149bbd8b147cb4579e, type: 2}
-    - target: {fileID: -5257586161679491192, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 576c9dd6fab94554b9641ddb0b1895c7, type: 2}
     - target: {fileID: -4216854461107832740, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -75020,21 +74976,9 @@ PrefabInstance:
       value: Laptoptest_low
       objectReference: {fileID: 0}
     - target: {fileID: 678933767203329727, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 678933767203329727, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 678933767203329727, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b134cb1319bb9fb42907ba0bc6cbbedb, type: 2}
-    - target: {fileID: 678933767203329727, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 576c9dd6fab94554b9641ddb0b1895c7, type: 2}
     - target: {fileID: 861461307805454438, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -75083,10 +75027,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b8e2cacc4b7f0ef47912e3dc69b82cfe, type: 2}
-    - target: {fileID: 6548056430057853937, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6548056430057853937, guid: 59bfc89aaef944b4491945917c1cd0b0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -75401,7 +75341,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 1.007999, y: 3.77, z: -0.684}
   targetPosition: {x: 1.007999, y: 3.77, z: -2.017}
@@ -81418,7 +81357,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: -2.332001, y: 7.526, z: -0.684}
   targetPosition: {x: -2.332001, y: 7.526, z: -2.017}
@@ -84102,7 +84040,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: -2.267, y: 7.526, z: -2.367}
   targetPosition: {x: -2.267, y: 7.526, z: -0.911}
@@ -89595,7 +89532,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 1.073, y: 3.77, z: -2.367}
   targetPosition: {x: 1.073, y: 3.77, z: -0.911}
@@ -92235,7 +92171,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isOpen: 0
   isConnect: 0
-  isDisplay: 1
   PositionMechine: 1
   defaultPosition: {x: 3.82, y: 0.02830553, z: -0.41}
   targetPosition: {x: 3.82, y: 0.02830553, z: -2.027}
